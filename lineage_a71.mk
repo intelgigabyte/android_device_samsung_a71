@@ -20,6 +20,17 @@ PRODUCT_MANUFACTURER := samsung
 # Use the latest approved GMS identifiers
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
+
+# Build Flags
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+BUILD_BCR := true
+TARGET_SUPPORT_BOOT_ANIMATIONS := true
+TARGET_INCLUDE_ACCORD := false
+
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="a71naxx-user 13 TP1A.220624.014 A715FXXSBDXB1 release-keys" \
