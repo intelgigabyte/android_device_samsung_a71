@@ -7,11 +7,11 @@
 # Inherit from a71 device
 $(call inherit-product, device/samsung/a71/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common InfinityX stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_a71
+PRODUCT_NAME := infinity_a71
 PRODUCT_DEVICE := a71
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A715
@@ -19,6 +19,10 @@ PRODUCT_MANUFACTURER := samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Build Flags
+INFINITY_MAINTAINER := "intelgigabyte9299"
+INFINITY_BUILD_TYPE := UNOFFICIAL
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
