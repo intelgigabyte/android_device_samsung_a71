@@ -17,6 +17,16 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A715
 PRODUCT_MANUFACTURER := samsung
 
+# Camera information (multiple sensors supported)
+AXION_CAMERA_REAR_INFO := 64,12,5,5
+AXION_CAMERA_FRONT_INFO := 32
+
+# Maintainer name (underscores become spaces in the UI)
+AXION_MAINTAINER := intelgigabyte9299
+
+# Processor name (underscores become spaces)
+AXION_PROCESSOR := Snapdragon_730
+
 # Use the latest approved GMS identifiers
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
